@@ -12,7 +12,7 @@ const ProductCarousel = () => {
     const { product, error, loading } = useContext(ProductContext);
 
     if (loading) {
-        return <p>loading...</p>
+        return <p className="mt-12">loading...</p>
     }
     if (error) {
         return <p> error : {error}</p>

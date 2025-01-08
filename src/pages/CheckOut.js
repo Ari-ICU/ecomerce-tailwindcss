@@ -39,7 +39,7 @@ const CheckoutForm = () => {
     return (
         <div>
             {/* Page Header */}
-            <div className="bg-gray-100 py-12">
+            <div className="bg-gray-100 py-12 mt-12">
                 <div className="container mx-auto text-center">
                     <p className="text-xl text-gray-500">Fresh and Organic</p>
                     <h1 className="text-4xl font-extrabold text-gray-900">Check Out Product</h1>

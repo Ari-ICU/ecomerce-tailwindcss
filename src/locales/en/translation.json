@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Useful Shop to Help You Buy Faster",
+    "subtitle": "It's never been easier to build beautiful websites that convey your message and tell your story."
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  }
+}

@@ -13,7 +13,7 @@ const ProductSection = () => {
     };
 
     if (loading) {
-        return <p>Loading...</p>;
+        return <p className="mt-12">loading...</p>
     }
 
     if (error) {

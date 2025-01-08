@@ -25,7 +25,7 @@ const CartPage = () => {
     };
 
     return (
-        <div className="bg-gray-100 py-10 min-h-screen">
+        <div className="bg-gray-100 py-10 min-h-screen mt-12">
             <div className="container mx-auto px-4">
                 <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8">Shopping Cart</h1>
                 <div className="flex flex-col lg:flex-row gap-6">
