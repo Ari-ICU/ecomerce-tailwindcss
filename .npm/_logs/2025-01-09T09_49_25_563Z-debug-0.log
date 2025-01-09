@@ -1,0 +1,127 @@
+0 verbose cli /opt/homebrew/Cellar/node@22/22.12.0/bin/node /opt/homebrew/opt/node@22/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind/.npmrc
+5 silly config load:file:/Users/thoeurnratha/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" ".npm" "--prefer-offline"
+9 verbose logfile logs-max:10 dir:/Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind/.npm/_logs/2025-01-09T09_49_25_563Z-
+10 verbose logfile /Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind/.npm/_logs/2025-01-09T09_49_25_563Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest aws-cdk-lib@^2.158.0
+15 silly packumentCache full:https://registry.npmjs.org/aws-cdk-lib cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 571ms
+17 http fetch GET 200 https://registry.npmjs.org/aws-cdk-lib 319ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/aws-cdk-lib set size:undefined disposed:false
+19 silly fetch manifest constructs@^10.3.0
+20 silly packumentCache full:https://registry.npmjs.org/constructs cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/constructs 153ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/constructs set size:undefined disposed:false
+23 silly placeDep ROOT aws-cdk-lib@2.174.1 OK for: @aws-amplify/graphql-transformer-core@3.3.1 want: ^2.158.0
+24 silly placeDep ROOT constructs@10.4.2 OK for: aws-cdk-lib@2.174.1 want: ^10.0.0
+25 silly fetch manifest @aws-cdk/asset-awscli-v1@^2.2.208
+26 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-awscli-v1 cache-miss
+27 silly fetch manifest @aws-cdk/asset-kubectl-v20@^2.1.3
+28 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-kubectl-v20 cache-miss
+29 silly fetch manifest @aws-cdk/asset-node-proxy-agent-v6@^2.1.0
+30 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-node-proxy-agent-v6 cache-miss
+31 silly fetch manifest @aws-cdk/cloud-assembly-schema@^39.0.1
+32 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fcloud-assembly-schema cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@aws-cdk%2fasset-awscli-v1 1537ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-awscli-v1 set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/@aws-cdk%2fasset-node-proxy-agent-v6 1637ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-node-proxy-agent-v6 set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/@aws-cdk%2fasset-kubectl-v20 1650ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fasset-kubectl-v20 set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/@aws-cdk%2fcloud-assembly-schema 1737ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/@aws-cdk%2fcloud-assembly-schema set size:undefined disposed:false
+41 silly fetch manifest @testing-library/dom@>=7.21.4
+42 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 730ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom set size:undefined disposed:false
+45 silly placeDep ROOT @testing-library/dom@10.4.0 OK for: @testing-library/user-event@13.5.0 want: >=7.21.4
+46 silly fetch manifest aria-query@5.3.0
+47 silly packumentCache full:https://registry.npmjs.org/aria-query cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/aria-query 72ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/aria-query set size:undefined disposed:false
+50 silly placeDep node_modules/@testing-library/dom aria-query@5.3.0 OK for: @testing-library/dom@10.4.0 want: 5.3.0
+51 silly fetch manifest dequal@^2.0.3
+52 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/dequal 86ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+55 silly placeDep ROOT @aws-cdk/asset-awscli-v1@2.2.218 OK for: aws-cdk-lib@2.174.1 want: ^2.2.208
+56 silly placeDep ROOT @aws-cdk/asset-kubectl-v20@2.1.3 OK for: aws-cdk-lib@2.174.1 want: ^2.1.3
+57 silly placeDep ROOT @aws-cdk/asset-node-proxy-agent-v6@2.1.0 OK for: aws-cdk-lib@2.174.1 want: ^2.1.0
+58 silly placeDep ROOT @aws-cdk/cloud-assembly-schema@39.1.42 OK for: aws-cdk-lib@2.174.1 want: ^39.0.1
+59 silly fetch manifest typescript@^5
+60 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/typescript 388ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+63 verbose stack Error: could not resolve
+63 verbose stack     at PlaceDep.failPeerConflict (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+63 verbose stack     at new PlaceDep (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+63 verbose stack     at #buildDepStep (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:920:18)
+63 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+63 verbose stack     at async CI.exec (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/lib/commands/ci.js:63:5)
+63 verbose stack     at async Npm.exec (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/lib/npm.js:207:9)
+63 verbose stack     at async module.exports (/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+64 error code ERESOLVE
+65 error ERESOLVE could not resolve
+66 error
+67 error While resolving: i18next@24.2.1
+67 error Found: typescript@4.9.5[2m[22m
+67 error [2mnode_modules/typescript[22m
+67 error   typescript@"^4.8.4" from @aws-amplify/graphql-schema-generator@0.11.2[2m[22m
+67 error   [2mnode_modules/@aws-amplify/graphql-schema-generator[22m
+67 error     @aws-amplify/graphql-schema-generator@"^0.11.2" from the root project
+67 error   [95mpeer[39m typescript@">= 2.7" from fork-ts-checker-webpack-plugin@6.5.3[2m[22m
+67 error   [2mnode_modules/fork-ts-checker-webpack-plugin[22m
+67 error     fork-ts-checker-webpack-plugin@"^6.5.0" from react-dev-utils@12.0.1[2m[22m
+67 error     [2mnode_modules/react-dev-utils[22m
+67 error       react-dev-utils@"^12.0.1" from react-scripts@5.0.1[2m[22m
+67 error       [2mnode_modules/react-scripts[22m
+67 error         react-scripts@"5.0.1" from the root project
+67 error   2 more (react-scripts, tsutils)
+67 error
+67 error Could not resolve dependency:
+67 error peerOptional typescript@"^5" from i18next@24.2.1[2m[22m
+67 error [2mnode_modules/i18next[22m
+67 error   i18next@"^24.2.1" from the root project
+67 error   [95mpeer[39m i18next@">= 23.2.3" from react-i18next@15.4.0[2m[22m
+67 error   [2mnode_modules/react-i18next[22m
+67 error     react-i18next@"^15.4.0" from the root project
+67 error
+67 error Conflicting peer dependency: typescript@5.7.3[2m[22m
+67 error [2mnode_modules/typescript[22m
+67 error   peerOptional typescript@"^5" from i18next@24.2.1[2m[22m
+67 error   [2mnode_modules/i18next[22m
+67 error     i18next@"^24.2.1" from the root project
+67 error     [95mpeer[39m i18next@">= 23.2.3" from react-i18next@15.4.0[2m[22m
+67 error     [2mnode_modules/react-i18next[22m
+67 error       react-i18next@"^15.4.0" from the root project
+67 error
+67 error Fix the upstream dependency conflict, or retry
+67 error this command with --force or --legacy-peer-deps
+67 error to accept an incorrect (and potentially broken) dependency resolution.
+68 error
+68 error
+68 error For a full report see:
+68 error /Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind/.npm/_logs/2025-01-09T09_49_25_563Z-eresolve-report.txt
+69 silly unfinished npm timer idealTree:buildDeps 1736416166097
+70 silly unfinished npm timer idealTree:node_modules/i18next 1736416169293
+71 verbose cwd /Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind
+72 verbose os Darwin 24.2.0
+73 verbose node v22.12.0
+74 verbose npm  v10.9.0
+75 notice
+75 notice New [31mmajor[39m version of npm available! [31m10.9.0[39m -> [34m11.0.0[39m
+75 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.0.0[39m
+75 notice To update run: [4mnpm install -g npm@11.0.0[24m
+75 notice  { force: true, [Symbol(proc-log.meta)]: true }
+76 verbose exit 1
+77 verbose code 1
+78 error A complete log of this run can be found in: /Users/thoeurnratha/Documents/m1/web-development/ecommerce-tailwind/.npm/_logs/2025-01-09T09_49_25_563Z-debug-0.log
