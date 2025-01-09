@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Khmer OS";
+  src: url("/src/assets/fonts/KhmerOS.ttf") format("truetype");
+}
+
+body {
+  font-family: "Khmer OS", sans-serif;
+}
+
+@font-face {
+  font-family: "Hanuman";
+  src: url("/src/assets/fonts/Hanuman.ttf") format("truetype");
+}
+body {
+  font-family: "Hanuman", sans-serif;
+}
