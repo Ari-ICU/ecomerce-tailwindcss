@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
                 aria-pressed={selectedLanguage === 'en'}
                 aria-label="Switch to English"
             >
-                <img src={enFlag} alt="English" className="w-6 h-4" />
+                <img src={enFlag} alt="English" className="w-4 h-3" />
                 <span className="sr-only">English</span>
             </button>
             <button
@@ -30,7 +30,7 @@ const LanguageSwitcher = () => {
                 aria-pressed={selectedLanguage === 'kh'}
                 aria-label="Switch to Khmer"
             >
-                <img src={khFlag} alt="Khmer" className="w-6 h-4" />
+                <img src={khFlag} alt="Khmer" className="w-4 h-3" />
                 <span className="sr-only">Khmer</span>
             </button>
         </div>
